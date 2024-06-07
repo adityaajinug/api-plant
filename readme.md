@@ -62,7 +62,7 @@ https://acceptable-blisse-dian-nuswantoro-university-920e3c70.koyeb.app/products
 
 ### Response
 
-````
+```
 {
   "status": "200",
   "message": "success",
@@ -86,5 +86,5 @@ https://acceptable-blisse-dian-nuswantoro-university-920e3c70.koyeb.app/products
   ]
 }
 
+
 ```
-````
