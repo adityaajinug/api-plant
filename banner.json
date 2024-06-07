@@ -1,0 +1,16 @@
+{
+  "status": "200",
+  "message": "success",
+  "data": [
+    {
+      "title": "banner 1",
+      "images": "https://unsplash.com/img.jpg",
+      "product_id": 1
+    },
+    {
+      "title": "banner 2",
+      "images": "https://unsplash.com/img.jpg",
+      "product_id": 2
+    }
+  ]
+}

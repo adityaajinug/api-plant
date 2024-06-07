@@ -1,0 +1,38 @@
+{
+  "status": "200",
+  "message": "success",
+  "data": {
+    "id": 1,
+    "title": "Sansiviera",
+    "images": [
+      {
+        "product_image": "https://unsplash.com/img.jpg"
+      },
+      {
+        "product_image": "https://unsplash.com/img.jpg"
+      }
+    ],
+    "price": 15000,
+    "price_discount": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "size": [
+      {
+        "id": 1,
+        "label": "S"
+      },
+      {
+        "id": 2,
+        "label": "M"
+      },
+      {
+        "id": 3,
+        "label": "L"
+      },
+      {
+        "id": 4,
+        "label": "XL"
+      }
+    ],
+    "category": 1
+  }
+}
