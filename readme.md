@@ -147,7 +147,31 @@ https://acceptable-blisse-dian-nuswantoro-university-920e3c70.koyeb.app/product/
 }
 
 ```
+## Detail Product Review
+### URL
+```
+https://acceptable-blisse-dian-nuswantoro-university-920e3c70.koyeb.app/product/review?id=(uuid_product)
+```
+### Response
+```
+{
+  "status": "200",
+  "message": "success",
+  "data": [
+    {
+      "fullname": "John Doe",
+      "photo": "url",
+      "comment": "This is a comment"
+    },
+    {
+      "fullname": "Jane Doe",
+      "photo": "url",
+      "comment": "This is a comment"
+    }
+  ]
+}
 
+```
 ## Cart
 ### Response
 ```
