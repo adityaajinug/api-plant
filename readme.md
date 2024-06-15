@@ -122,6 +122,29 @@ https://acceptable-blisse-dian-nuswantoro-university-920e3c70.koyeb.app/product/
 ```
 ### Response
 ```
+{
+  "status": "200",
+  "message": "success",
+  "data": {
+    "id": 1,
+    "title": "string",
+    "price": 0,
+    "after_discount": 0,
+    "size": [
+      {
+        "id": "uuid",
+        "size": "string"
+      },
+      {
+        "id": "uuid",
+        "size": "string"
+      }
+    ],
+    "image": ["url1", "url2"],
+    "description": "string",
+    "category": "string"
+  }
+}
 
 ```
 
