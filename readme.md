@@ -1,5 +1,32 @@
 # Rules
 
+## URL rules
+
+```
+Contoh Benar :
+http://api.example.com/products
+http://api.example.com/payment-method
+
+Contoh Salah :
+http://api.example.com/get-all-products
+http://api.example.com/get-payment-method
+
+http://api.example.com/getproducts
+http://api.example.com/getpaymentmethod
+
+
+Contoh Benar :
+GET http://api.example.com/products/{productId}
+POST http://api.example.com/products
+
+Contoh Salah :
+
+GET http://api.example.com/get-products-by-id/{productId}
+POST http://api.example.com/create-product
+
+
+```
+
 ## Status Response
 
 ```
