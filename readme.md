@@ -57,7 +57,7 @@
 ### Url
 
 ```
-https://acceptable-blisse-dian-nuswantoro-university-920e3c70.koyeb.app/products
+https://acceptable-blisse-dian-nuswantoro-university-920e3c70.koyeb.app/product
 ```
 
 ### Response
@@ -88,6 +88,16 @@ https://acceptable-blisse-dian-nuswantoro-university-920e3c70.koyeb.app/products
 
 
 ```
+## Detail Product
+### URL
+```
+https://acceptable-blisse-dian-nuswantoro-university-920e3c70.koyeb.app/product/(uuid_product)
+```
+### Response
+```
+
+```
+
 ## Cart
 ### Response
 ```
@@ -123,7 +133,7 @@ https://acceptable-blisse-dian-nuswantoro-university-920e3c70.koyeb.app/products
 ### Url
 
 ```
-https://acceptable-blisse-dian-nuswantoro-university-920e3c70.koyeb.app/payment-method
+https://acceptable-blisse-dian-nuswantoro-university-920e3c70.koyeb.app/ref/payment-method
 ```
 
 ### Response
@@ -163,26 +173,14 @@ https://acceptable-blisse-dian-nuswantoro-university-920e3c70.koyeb.app/shipping
   "data": [
     {
       "id": "1",
-      "label": "Rumah",
-      "client_name": "Adit",
+      "address_label": "Rumah",
+      "recipient": "Adit",
       "address": "Jl. Kebon Jeruk No. 1, Jakarta Barat",
-      "kelurahan": "Kebon Jeruk",
-      "kecamatan": "Kebon Jeruk",
-      "kota": "Jakarta Barat",
-      "provinsi": "DKI Jakarta",
-      "kode_pos": "11530",
-      "phone": "08123456789"
-    },
-    {
-      "id": "2",
-      "label": "Rumah",
-      "client_name": "Adit",
-      "address": "Jl. Kebon Jeruk No. 1, Jakarta Barat",
-      "kelurahan": "Kebon Jeruk",
-      "kecamatan": "Kebon Jeruk",
-      "kota": "Jakarta Barat",
-      "provinsi": "DKI Jakarta",
-      "kode_pos": "11530",
+      "village": "Kebon Jeruk",
+      "district": "Kebon Jeruk",
+      "city": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "postal_code": "11530",
       "phone": "08123456789"
     }
   ]
